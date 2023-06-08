@@ -14,16 +14,17 @@ nav {
     padding: 0px;
 }
 .icono{
-    width: 100px;
+    max-width: 100px;
+    min-width: 100px;
     height: 50px;
 }
 .icono img{
-    width: 33px;
+    min-width: 33px;
+    max-width: 33px;
     margin: auto;
     display: block;
 }
 .icono a{
-   background-color: aqua;
    text-align: center;
    display: block;
    width: 80px;
@@ -31,42 +32,66 @@ nav {
 }
 .icono a:hover{
     color: coral;
-    background-color: blue;
+    background-color: rgb(0, 204, 255);
    
 }
 .barraBusqueda ::placeholder{
     color: rgb(204, 0, 255);
+    text-align: center;
 }
 .barraBusqueda {
+    display: grid;
     position: absolute;
     margin-left: 15px;
-    padding-top: 15px;
+    padding-top: 10px;
+    width: 50px;
 }
 .barraBusqueda label{
-    color: rgb(228, 135, 22);
+    color: rgb(0, 0, 0);
+    font-size:  12px;
+    text-transform: uppercase;
+    text-align: center;
 }
-.donar {
+.donar{
     position: absolute;
     right: 0px;
     margin-right: 15px;
     padding-top: 15px;
 }
-/*.gifs{
-  background: black;
-  border: 5px solid red;
-}*/
-.banner1{
-    margin-top: 50px;
-    display: inline-block;
-    width: 33%;
+header{
+    padding-top: 50px;
 }
-.banner1 img {
-    height: 150px;
+.banner1{
+    display: inline;
+    width:30%;
+}
+.banner1 img{
+    height: 120px;
+    width:25%;
 }
 .banner2{
-    display: inline-block;
-    width: 33%;
+    display: inline;
+    width:25%;   
 }
 .banner2 img{
-    height: 150px;
+    height: 120px;
+    width:25%;
+}
+.banner3{
+    display: inline;
+    width:25%;
+}
+.banner3 img{
+    height: 120px;
+    width:25%;
+}
+.banner4 {
+    display: inline;
+    width:25%;
+    left: 0px;
+}
+.banner4 img {
+    height: 120px;
+    right: 0px;
+    width:24%;
 }
