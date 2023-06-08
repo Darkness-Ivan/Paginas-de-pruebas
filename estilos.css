@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background-color: pink;
+    position: absolute;
+    left: auto;
+    right: auto;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.icono{
+    width: 100px;
+    height: 50px;
+}
+.icono img{
+    width: 33px;
+    margin: auto;
+    display: block;
+}
+.icono a{
+   background-color: aqua;
+   text-align: center;
+   display: block;
+   width: 80px;
+   margin-left: 10px;
+}
+.icono a:hover{
+    color: coral;
+    background-color: blue;
+   
+}
+.barraBusqueda ::placeholder{
+    color: rgb(204, 0, 255);
+}
+.barraBusqueda {
+    position: absolute;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.barraBusqueda label{
+    color: rgb(228, 135, 22);
+}
+.donar {
+    position: absolute;
+    right: 0px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+/*.gifs{
+  background: black;
+  border: 5px solid red;
+}*/
+.banner1{
+    margin-top: 50px;
+    display: inline-block;
+    width: 33%;
+}
+.banner1 img {
+    height: 150px;
+}
+.banner2{
+    display: inline-block;
+    width: 33%;
+}
+.banner2 img{
+    height: 150px;
+}
